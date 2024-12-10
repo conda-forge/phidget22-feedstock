@@ -1,13 +1,13 @@
 {% set name = "Phidget22" %}
-{% set version = "1.20.20240910" %}
+{% set version = "1.22.20241209" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Phidget22-{{ version }}.tar.gz
-  sha256: 7c19d251e19b155513401af15282769884957680501f886332a9e22994de4591
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.lower() }}-{{ version }}.tar.gz
+  sha256: 782a5eefdd98b4f09728d42087e6c3b7e4720a254de2302e046eceec7b75554f
 
 build:
   noarch: python
