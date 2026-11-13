@@ -1,5 +1,5 @@
 {% set name = "Phidget22" %}
-{% set version = "1.26.20260821" %}
+{% set version = "1.27.20261112" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
-  sha256: 502054e5b149ef6fe18e6a9f9cbf6368202a0346f6a1f9d583648ed3eb545965
+  sha256: 4b5c86e95e564175f12820950b0bb00e88d49fdae74225f02324f5cfef2bef75
 
 build:
   noarch: python
